@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 50px 20px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  gap: 15px;
+  box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04),
+    0px 8px 16px rgba(96, 97, 112, 0.16);
+}
+.package_type {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #155bd5;
+  border-radius: 30px;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+}
+.pricing {
+  font-size: 40px;
+  font-weight: 600;
+}
+.pricing sup,
+.pricing sub {
+  font-size: 16px;
+  font-weight: 300;
+}
+.action {
+  margin: 10px;
+}
+
+.action a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background: #155bd5;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.list_items {
+  align-self: self-start;
+}
+.list_items li {
+  list-style: none;
+  margin-top: 5px;
+}
+.list_items li i {
+  padding-right: 10px;
+}
+.list_items li i.active {
+  color: #155bd5;
+}
